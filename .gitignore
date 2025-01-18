@@ -1,1 +1,52 @@
-/target
+# Ignore compiled binary files
+/target/
+
+# Ignore Cargo.lock (if the project is a library, not a binary)
+/Cargo.lock
+
+# Ignore backup files from editors
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore environment files
+.env
+
+# Ignore build artifacts
+/target/
+**/*.rs.bk
+
+# Ignore log files
+*.log
+
+# Ignore Rust analyzer files
+.rust-analyzer.json
+
+# Ignore debug artifacts
+debug/
+*.dSYM/
+
+# Ignore generated documentation
+/target/doc/
+
+# Ignore tests output
+/target/tests/
+
+# Ignore Cargo-specific directories
+.cargo/
+
+# Ignore Rustup overrides
+rust-toolchain.toml
+
+# Ignore profiling artifacts
+*.profraw
